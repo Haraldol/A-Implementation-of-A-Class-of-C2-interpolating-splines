@@ -1,5 +1,8 @@
 # A Implementation of A Class of C2 interpolating splines
 
+![alt text](everything.png "All effects on")
+
+
 ## Author 
 Harald Olin, University of Tokyo, Visual Media 2024
 
@@ -33,6 +36,9 @@ The paper is theoretical rigorous with mathematical proofs for each stated prope
 
 I've implemented a userinterface using pygame where the difference between Cem Yuksels blending function and the original interpolation can be visualized. 
 
+![alt text](startScreen.png "start screen")
+
+
 In this program It's possible to: 
 
 - Place control/points in the paintable area 
@@ -42,6 +48,10 @@ In this program It's possible to:
     - Circle interpolation  
     - Circle blending       
     - Remove everything you've painted 
+
+![alt text](bezierandbezierblending.png "bezier and bezierblending on")
+
+![alt text](circleandcircleblending.png "circle and circle blending on")
 
 Start the program by running it from the command line. Then choose which interpolations you want to see. Then start painting control points with the mouse click. You can have all interpolations running at the same time. I would suggest starting with Bezier interpolation (yellow color) and compare it with Bezier blending (Red color), to get a intuiton for how the program works but also how Cem Yuksels curves differ from the original ones. 
 
